@@ -37,6 +37,16 @@ const features = [
       </>
     ),
   },
+  {
+    title: 'Marketplace',
+    page: '/marketplace',
+    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    description: (
+      <>
+        Browse Marketplace apps.
+      </>
+    ),
+  },
 ];
 
 function Feature({imageUrl, title, description, page}) {
